@@ -43,17 +43,17 @@ function App() {
             <Navbar />
             <section
               id="hero"
-              className="my-8 p-4 rounded-xl backdrop-blur-md bg-glass shadow-glass transition-all duration-500 animate-fade scroll-mt-24 delay-200 animate-bounceIn"
+              className="my-8 p-4 rounded-xl backdrop-blur-md bg-glass shadow-glass transition-all duration-500 animate-fade scroll-mt-24 delay-200 animate-bounceInSlow
+"
             >
               <Home />
             </section>
-            <section className="my-8 p-4 rounded-xl backdrop-blur-md bg-glass shadow-glass transition-all duration-500 animate-fade scroll-mt-24 delay-200 animate-bounceIn">
+            <section
+              className="my-8 p-4 rounded-xl backdrop-blur-md bg-glass shadow-glass transition-all duration-500 animate-fade scroll-mt-24 delay-200 animate-bounceInSlow"
+            >
               <About />
             </section>
-            <section
-              
-              className="my-8 p-4 rounded-xl backdrop-blur-md bg-glass scroll-mt-24  shadow-glass transition-all duration-500 animate-fade delay-200 animate-bounceIn"
-            >
+            <section className="my-8 p-4 rounded-xl backdrop-blur-md bg-glass scroll-mt-24  shadow-glass transition-all duration-500 animate-fade delay-200 animate-bounceIn">
               <Projects />
             </section>
             <section className="my-8 p-4 rounded-xl backdrop-blur-md bg-glass shadow-glass transition-all duration-500 animate-fade scroll-mt-24 delay-200 animate-bounceIn">

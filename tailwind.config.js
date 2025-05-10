@@ -27,20 +27,20 @@ export default {
           "0%, 100%": { transform: "translateY(0px)" },
           "50%": { transform: "translateY(-4px)" },
         },
-        bounceIn: {
+        bounceInSlow: {
           "0%": {
             opacity: 0,
-            transform: "translateY(200%) scale(0.3)",
+            transform: "translateX(100px)",
           },
-          "50%": {
+          "60%": {
             opacity: 1,
-            transform: "translateY(-10px) scale(1.05)",
+            transform: "translateX(-10px)",
           },
-          "70%": {
-            transform: "translateY(5px) scale(0.98)",
+          "80%": {
+            transform: "translateX(5px)",
           },
           "100%": {
-            transform: "translateY(0) scale(1)",
+            transform: "translateX(0)",
           },
         },
         slideInRight: {
@@ -61,7 +61,7 @@ export default {
         slideInRight: "slideInRight 0.8s ease-out forwards",
         moveStars: "moveStars 60s linear infinite",
         fadeIn: "fadeIn 0.5s ease-in-out forwards",
-        bounceIn: "bounceIn 1s ease-out",
+        bounceInSlow: 'bounceInSlow 1.5s ease-out',
       },
     },
   },
