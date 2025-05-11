@@ -35,7 +35,7 @@ const skills = [
 {/*Next task would be adding carousel like system */}
 const Skills = () => {
   return (
-    <div className="rounded-xl p-1 bg-gradient-border animate-float my-8">
+    <div className="rounded-xl p-[1px] sm:p-1 bg-gradient-border animate-float my-8">
       <div className="bg-secondary p-6 rounded-xl shadow-glass text-textLight">
         <section id="skills" className="py-20 px-6 text-center scroll-mt-28">
           <h3 className="text-3xl font-bold text-gradient mb-8">

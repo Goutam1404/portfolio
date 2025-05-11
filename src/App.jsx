@@ -38,7 +38,7 @@ function App() {
           }}
         ></div>
 
-        <div className="bg-black/95 text-textLight min-h-screen px-4 sm:px-6 md:px-8 lg:px-20 py-6  ">
+        <div className="bg-black/95 text-textLight min-h-screen px-2 sm:px-4 md:px-6 lg:px-16 py-6 ">
           <div className="max-w-6xl mx-auto">
             <Navbar />
             <section
@@ -48,9 +48,7 @@ function App() {
             >
               <Home />
             </section>
-            <section
-              className="my-8 p-4 rounded-xl backdrop-blur-md bg-glass shadow-glass transition-all duration-500 animate-fade scroll-mt-24 delay-200 animate-bounceInSlow"
-            >
+            <section className="my-8 p-4 rounded-xl backdrop-blur-md bg-glass shadow-glass transition-all duration-500 animate-fade scroll-mt-24 delay-200 animate-bounceInSlow">
               <About />
             </section>
             <section className="my-8 p-4 rounded-xl backdrop-blur-md bg-glass scroll-mt-24  shadow-glass transition-all duration-500 animate-fade delay-200 animate-bounceIn">
