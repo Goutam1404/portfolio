@@ -2,7 +2,7 @@ import React from "react";
 // import TodoImage from "./Todo.jpg";
 const Projects = () => {
   return (
-    <div className="rounded-xl p-1 bg-gradient-border animate-float">
+    <div className="rounded-xl p-[1px] sm:p-1 bg-gradient-border animate-float mt-2 sm:mt-4">
       <div className="bg-secondary p-6 rounded-xl shadow-glass">
         <section
           id="projects"

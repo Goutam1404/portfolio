@@ -20,7 +20,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="rounded-xl p-1 bg-gradient-border animate-float my-8">
+    <div className="rounded-xl p-[1px] sm:p-1 bg-gradient-border animate-float my-8">
       <div className="bg-secondary p-6 rounded-xl shadow-glass text-textLight">
         <h2 className="text-2xl font-bold mb-2 text-gradient">Let’s Connect</h2>
         <p className="mb-6 text-textLight text-sm">

@@ -13,7 +13,7 @@ const Home = () => {
 
   return (
     <>
-      <div className="rounded-xl p-1 bg-gradient-border animate-float mt-4">
+      <div className="rounded-xl p-[1px] sm:p-1 bg-gradient-border animate-float mt-2 sm:mt-4">
         <section
           id="home"
           className="bg-secondary p-6 rounded-xl shadow-glass  scroll-mt-28"

@@ -55,13 +55,25 @@ export default {
           "0%": { opacity: 0 },
           "100%": { opacity: 1 },
         },
+        fadeInUp: {
+          "0%": {
+            opacity: 0,
+            transform: "translateY(20px)",
+          },
+          "100%": {
+            opacity: 1,
+            transform: "translateY(0)",
+          },
+        },
       },
+
       animation: {
         float: "subtleFloat 3s ease-in-out infinite",
         slideInRight: "slideInRight 0.8s ease-out forwards",
         moveStars: "moveStars 60s linear infinite",
         fadeIn: "fadeIn 0.5s ease-in-out forwards",
-        bounceInSlow: 'bounceInSlow 1.5s ease-out',
+        fadeInUp: "fadeInUp 0.6s ease-out  forwards",
+        bounceInSlow: "bounceInSlow 1.5s ease-out",
       },
     },
   },
