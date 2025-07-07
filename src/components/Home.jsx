@@ -71,7 +71,7 @@ const Home = () => {
               {/* Buttons */}
               <div className="mt-6 flex gap-4">
                 <a
-                  href="https://drive.google.com/file/d/10gkLW0kUoIRCxaYgX4HYyWvYN9Yw_vKQ/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1B9o7nQ4FW-QMrhXifPfu7xpOJe0jj7R0/view?usp=drive_link"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-gradient-to-r from-accentStart to-accentEnd text-white px-4 py-2 rounded-md font-medium transition-all duration-300 shadow-md hover:shadow-[0_0_12px_#3b82f6] hover:scale-105"
